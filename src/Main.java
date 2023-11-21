@@ -54,7 +54,6 @@ public class Main {
 
     private static void task4() {
         System.out.println("\nЗадача 4:");
-        int[] arr = generateRandomArray();
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int i = reverseFullName.length - 1; i >= 0; i--) {
             System.out.print(reverseFullName[i]);
